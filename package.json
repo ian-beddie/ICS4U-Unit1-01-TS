@@ -1,1 +1,5 @@
-{ "dependencies": { "bun-promptx": "^0.2.0" } }
+{ "dependencies": { "bun-promptx": "^0.2.0", "ts-standard": "^12.0.2" }, "name": "ics4u-unit1-01-ts", "module": "index.ts", "type": "module", "devDependencies": {
+  "@types/bun": "latest"
+}, "peerDependencies": {
+  "typescript": "^5.0.0"
+} }
